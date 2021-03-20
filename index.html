@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>PokeDex</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+    <header>
+        <h1>Pokedex</h1>
+    </header>
+
+    <section class="container">
+        <div class="flex border-black box-shadow">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQsqUHAlacdJqGpmYJyOkPo6xTYMzlCl5fdQ&usqp=CAU"
+                alt="" id="poke-img">
+            <div class="rev-flex">
+                <p class="pd-10 pb-0 weight-800">Poke Desc: <span id="description" class="weight-default"></span></p>
+                <p class="pd-10 pb-0 weight-800">Poke # <span id="id" class="weight-default">Id</span></p>
+                <p class="pd-10 pb-0 weight-800">Some of the Pokemon moves: <span id="moves"
+                        class="weight-default"></span></p>
+                <ul class="pd-10 pb-0 weight-800" id="moves">
+                </ul>
+            </div>
+        </div>
+
+        <form action="submit" class="mt-5" id="user-input">
+            <input type="text" name="poke-name" id="poke-name">
+            <button>Search</button>
+        </form>
+
+    </section>
+
+
+    <footer>
+        <p>Created by Michael Taylour</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="app.js" async defer></script>
+</body>
+
+</html>

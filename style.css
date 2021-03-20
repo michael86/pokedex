@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("https://i.ytimg.com/vi/svLakCJlANw/maxresdefault.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  text-align: center;
+  text-decoration: underline;
+  font-weight: 800;
+  margin-top: 7.5vh;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+}
+
+input {
+  padding-left: 5px;
+  border: 1px solid grey;
+  border-radius: 25px;
+  height: 25px;
+  font-size: 1.2em;
+}
+
+button {
+  background-color: red;
+  color: lightblue;
+  border-radius: 25px;
+  padding: 3px;
+  font-size: 1.2em;
+  border: none;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: lightblue;
+  color: red;
+}
+
+img {
+  margin: 15px;
+  width: 50%;
+  height: 200px;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  position: absolute;
+  top: 20vh;
+  left: 30vw;
+  width: 40%;
+}
+
+.flex {
+  display: flex;
+}
+
+.rev-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.pd-10 {
+  padding: 10px;
+}
+
+.pb-0 {
+  padding-bottom: 0;
+}
+
+.mt-5 {
+  margin-top: 5px;
+}
+
+.border-black {
+  border: 1px solid black;
+}
+
+.box-shadow {
+  box-shadow: 2px 2px black;
+}
+
+.weight-800 {
+  font-weight: 800;
+}
+
+.weight-default {
+  font-weight: 100;
+}
